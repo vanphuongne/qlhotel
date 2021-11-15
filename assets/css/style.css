@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  html {
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth; /* di chuyển giữa các thanh mượt hơn */
+  }
+
+  .content-listroom{
+    margin-top:20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 10px;
+    background-color: #eae9e7;
+}
+.info_listroom{
+    margin: 30px;
+    /* padding-top: 15px; */
+    background-color: #fff;
+
+
+}
+.content-listroom img{
+    width: 100%;
+    
+}
+
+.content-listroom a{
+    text-decoration: none;
+    color: black;
+}
+.content-listroom h6{
+    margin: 0 20px;
+
+}
+.content-listroom a.title {
+    display: block;
+    margin: 30px 20px;
+}
+.btn{
+    line-height: 1;
+    margin: 20px;
+}
+
+.row.g-0 {
+    font-size: 12px;
+}
+
+.introduce-hotel{
+    background-color: #f0efed;
+
+}
+.align-items-start {
+    align-items: flex-start!important;
+    padding-bottom: 50px;
+}
+.justify-content-center {
+    margin-left: 340px;
+    justify-content: center!important;
+    padding-top: 48px;
+    padding-bottom: 30px;
+}
+select #select-number-people{
+    text-align: center;
+    padding: 3px 7px;
+}
+h5 .type-room{
+
+    display: flex;
+    justify-content: center;
+}
+index {
+    background-color: #f1f0ee;
+}
+footer {
+    background-color: #cccccc;
+    margin-top: 50px;
+}
+
+
+
+
